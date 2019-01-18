@@ -8,5 +8,11 @@ public class ClasePrincipal {
 		contar();
 
 	}
+	
+	public static void contar() {
+		for (int i=0;i<5;i++) {
+			System.out.println("Escribiendo en la rama 1");
+		}
+	}
 
 }
